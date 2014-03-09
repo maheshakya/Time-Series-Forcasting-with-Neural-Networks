@@ -5,15 +5,15 @@ Import forcasting module
 
 create_series() function has following parameters:
 
-in_array    : time series data (numpy array or list of values)
-window_size : window size for feed forward network
-period      : number of periods to predict
-minV        : assumed minimum value for the time series
-maxV        : assumed maximum value for the time series
-layer_nodes : list of values for the number of node for each layer in the neural network(Should
-		be more than or equal to 2 values in the list)
-sigmoid     : name of the sigmoid function('tanh' or 'logistic')
-epochs      : number of iterations in the neural network
+1. in_array    : time series data (numpy array or list of values)
+2. window_size : window size for feed forward network
+3. period      : number of periods to predict
+4. minV        : assumed minimum value for the time series
+5. maxV        : assumed maximum value for the time series
+6. layer_nodes : list of values for the number of node for each layer in the neural network(Should
+		 be more than or equal to 2 values in the list)
+7. sigmoid     : name of the sigmoid function('tanh' or 'logistic')
+8. epochs      : number of iterations in the neural network
 
 you can either edit these values in the code itself
 
